@@ -34,5 +34,19 @@ Set up the webhook by following the steps in the image below
 ![Add Gitlab Webhook](add_gitlab_webhook.png)
 
 In this image, the value after `payload`, in this case `gitlabpw` i.e. the name of the repository, becomes $1 in git_pull.sh of the previous step.
+Make sure the target URL and port is correct.
 
+# Step 4
+1. Make sure git_pull.sh is executable
 
+```chmod +x git_pull.sh ```
+
+2. Make sure you have installed flask
+
+```pip install flask ```
+
+3. Run the python app
+
+```python git_hook.py``` 
+You can also run it using nohup so that it runs in the background -
+```nohup python git_hook.py &```
