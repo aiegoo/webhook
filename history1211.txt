@@ -1,0 +1,1000 @@
+ 1025  vim playbooks/roles/git_update/defaults/main.yml
+ 1026  ls
+ 1027  vim playbooks/roles/git_update/defaults/main.yml
+ 1028  cd repos
+ 1029  ls
+ 1030  cd test_bare.git
+ 1031  ls
+ 1032  cd ..
+ 1033  cd tin-dog
+ 1034  ls
+ 1035  ls -la
+ 1036  cd ..
+ 1037  cd test_bare.git
+ 1038  ls -la
+ 1039  ls
+ 1040  clear
+ 1041  vim ~/.ssh/authorized_keys
+ 1042  cd ..
+ 1043  ls
+ 1044  cd test_bare.git
+ 1045  ls
+ 1046  cd ..
+ 1047  ls
+ 1048  cd ansible
+ 1049  ls
+ 1050  ./server-update-ansible test_bare.git
+ 1051  k
+ 1052  ls
+ 1053  cd playbooks/roles/git_update/defaults/
+ 1054  ls
+ 1055  vim main.yml
+ 1056  cd ../../..
+ 1057  ls
+ 1058  vim inventory.ini
+ 1059  vim ansible.cfg
+ 1060  ls
+ 1061  cd ..
+ 1062  vim server-update-ansible
+ 1063  vim post-recievie
+ 1064  vim server-update-ansible
+ 1065  vim ansible.cfg
+ 1066  cd playbooks
+ 1067  ls
+ 1068  vim ansible.cfg
+ 1069  cd ..
+ 1070  ls
+ 1071  vim post-receive
+ 1072  cd playbooks/roles/git_update/
+ 1073  ls
+ 1074  cd TASKS
+ 1075  cd tasks
+ 1076  ls
+ 1077  vim main.yml
+ 1078  ls
+ 1079  cd defaults
+ 1080  ls
+ 1081  cd ~/ansible
+ 1082  ls
+ 1083  locatre .py
+ 1084  ls
+ 1085  cd playbooks
+ 1086  ls
+ 1087  cd roles
+ 1088  ls
+ 1089  cd git_update
+ 1090  ls
+ 1091  cd meta
+ 1092  ls
+ 1093  vim main.yml
+ 1094  ssh root@52.79.239.222
+ 1095  ssh-copy-id -i ~/.ssh/id_rsa.pub root@159.65.8.38:
+ 1096  ssh -i /root/.ssh/id_rsa root@159.65.8.38
+ 1097  ssh-copy-id -i ~/.ssh/id_rsa root@159.65.8.38:
+ 1098  exit
+ 1099  ssh-copy-id -i ~/.ssh/id_rsa.pub root@159.65.8.38:
+ 1100  exit
+ 1101  cd ~/
+ 1102  cd repos
+ 1103  ls
+ 1104  exit
+ 1105  ls
+ 1106  cd .vim
+ 1107  ls
+ 1108  cd bundle
+ 1109  ls
+ 1110  cd ..
+ 1111  cd budlne
+ 1112  cd budnle
+ 1113  ls
+ 1114  cd -
+ 1115  ls
+ 1116  cd bundle
+ 1117  ls
+ 1118  exit
+ 1119  ls
+ 1120  git clone ssh://root@206.189.85.199/root/repos/SiteVenv
+ 1121  ls
+ 1122  git clone ssh://root@206.189.85.199/root/repos/SiteVenv
+ 1123  cd repos/
+ 1124  ls
+ 1125  source SiteVenv/bin/activate
+ 1126  cd SiteVenv/
+ 1127  ls
+ 1128  netstat -tulpn
+ 1129  kill 20987
+ 1130  ls
+ 1131  kill 20987
+ 1132  netstat -tulpn
+ 1133  ls
+ 1134  cat server.py
+ 1135  python3 server.py
+ 1136  netstat -tulpn
+ 1137  cat /etc/hosts
+ 1138  python3 server.py
+ 1139  ls
+ 1140  ufw allow 8080
+ 1141  ls
+ 1142  netstat -tulpn
+ 1143  iptables -I INPUT -p tcp --dport 5000 -j ACCEPT
+ 1144  nano server.py
+ 1145  python3 server.py 
+ 1146  nano server.py
+ 1147  python3 server.py 
+ 1148  ufw allow all 5000
+ 1149  ufw allow 5000
+ 1150  sudo ufw enable
+ 1151  ufw disable
+ 1152  ifconfig
+ 1153  curl ifconfig.co
+ 1154  nano server.py 
+ 1155  python3 server.py 
+ 1156  nano server.py 
+ 1157  pip3 install flask
+ 1158  python3 server.py 
+ 1159  ufw enable http
+ 1160  ufw allow http
+ 1161  ufw allow all http
+ 1162  python3 server.py 
+ 1163  ls
+ 1164  cd ..
+ 1165  ls
+ 1166  deactivate
+ 1167  cd ..
+ 1168  ls
+ 1169  cd slave/
+ 1170  ls
+ 1171  source bin/activate
+ 1172  python3 slave.py 
+ 1173  python3 slave.py  ~/repos/hanuman/index.html
+ 1174  nano slave.py
+ 1175  python3 slave.py  ~/repos/hanuman/index.html
+ 1176  iptables -A INPUT -p tcp --dport 80 -m conntrack --ctstate NEW,ESTABLISHED -j ACCEPT
+ 1177  iptables -A OUTPUT -p tcp --sport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
+ 1178  iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED -j ACCEPT
+ 1179  nano slave.py
+ 1180  python3 slave.py  ~/repos/hanuman/index.html
+ 1181  ufw enable
+ 1182  deactivate
+ 1183  ls
+ 1184  cd ../../..
+ 1185  ls
+ 1186  cd home/
+ 1187  ls
+ 1188  cd -
+ 1189  cd root/
+ 1190  ls
+ 1191  source SiteVenv/bin/activate
+ 1192  cd SiteVenv/
+ 1193  ls
+ 1194  nano server.py 
+ 1195  python3 server.py 
+ 1196  ifconfig
+ 1197  clear
+ 1198  netstat -tulpn
+ 1199  python3 server.py 
+ 1200  nano server.py 
+ 1201  python3 server.py 
+ 1202  nano server.py 
+ 1203  python3 server.py 
+ 1204  nano server.py 
+ 1205  python3 server.py 
+ 1206  nohup python3 server.py &
+ 1207  curl localhost:10055
+ 1208  fg
+ 1209  ls
+ 1210  nano server.py 
+ 1211  nohup python3 server.py &
+ 1212  curl localhost:10055
+ 1213  curl iptabl 206.189.85.199:10055
+ 1214  curl https://ipinfo.io/ip
+ 1215  ip route show
+ 1216  echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+ 1217  route n flush
+ 1218  route -nn flush
+ 1219  route -n flush
+ 1220  iptables -F
+ 1221  fg
+ 1222  python3 server.py 
+ 1223  ufw allow ssh
+ 1224  ufw enable
+ 1225  ufw allow 10055
+ 1226  ufw allow incoming 10055
+ 1227  ufw allow all incoming 10055
+ 1228  ufw allow http
+ 1229  python3 server.py 
+ 1230  ufw --force reload
+ 1231  python3 server.py 
+ 1232  exit
+ 1233  vim ~/.ssh/authorized_keys
+ 1234  cd ~/.ssh
+ 1235  ls
+ 1236  vim /etc/ssh/ssh_config
+ 1237  ls
+ 1238  cd /etc/ssh/
+ 1239  ls
+ 1240  vim ssh_config~
+ 1241  mov ssh_config~ ssh_config
+ 1242  mv ssh_config~ ssh_config
+ 1243  vim ssh_config
+ 1244  sudo systemctl restart sshd.service
+ 1245  sudo systemctl restart ssh.servcie
+ 1246  sudo systemctl restart sshd.service
+ 1247  cd ~/repos
+ 1248  ls
+ 1249  cd test_bare.git
+ 1250  l
+ 1251  vim config
+ 1252  netstat -tulpn
+ 1253  ls
+ 1254  git remote -v
+ 1255  git remote --version
+ 1256  git remote -V
+ 1257  git config username
+ 1258  git config user.name
+ 1259  git config user.password
+ 1260  git config user.pasword 
+ 1261  git config user.password 
+ 1262  git config u
+ 1263  git config user.password youarereported
+ 1264  ls
+ 1265  git config user.password youarereported
+ 1266  git config user.password 
+ 1267  ./server-update-ansible
+ 1268  history
+ 1269  cd ~/
+ 1270  ls
+ 1271  history > ./history.md
+ 1272  ls
+ 1273  vim history.md
+ 1274  scp history.md root@54.180.86.51:~/
+ 1275  cd ~/etc/ssh
+ 1276  mv ssh_config~ ssh_config
+ 1277  ls
+ 1278  cd /etc/ssh
+ 1279  ls
+ 1280  mv ssh_config~ ssh_config
+ 1281  scp history.md root@54.180.86.51:~/
+ 1282  cd ~/
+ 1283  scp history.md root@54.180.86.51:~/
+ 1284  ping 206.189.85.199
+ 1285  telnet 206.189.85.199 22
+ 1286  reboot now
+ 1287  cd ~/downloads
+ 1288  ls
+ 1289  unzip Site.zip
+ 1290  ls
+ 1291  unzip Site.zip ~/repos/.
+ 1292  mv -r SiteVenv ~/repos/.
+ 1293  mv -f SiteVenv ~/repos/.
+ 1294  cd ~/repos
+ 1295  ls
+ 1296  cd SiteVenv
+ 1297  ls
+ 1298  cd bin
+ 1299  ls
+ 1300  ./activate
+ 1301  cd .
+ 1302  cd ..
+ 1303  source ./bin/activate
+ 1304  ls
+ 1305  python3 server.py
+ 1306  cd ~/repos/SiteVenv
+ 1307  ls
+ 1308  vim server.py
+ 1309  ls
+ 1310  git init --bare
+ 1311  cd .git
+ 1312  ls
+ 1313  vim config
+ 1314  git status
+ 1315  git config user.name
+ 1316  passwd hsyyu
+ 1317  vim config
+ 1318  git status
+ 1319  git init 
+ 1320  git status
+ 1321  git add .
+ 1322  git status
+ 1323  git commit "first commit with unzipped site.zip"
+ 1324  git commit -m "first commit with unzipped site.zip"
+ 1325  w
+ 1326  df
+ 1327  reboot now
+ 1328  sudo update
+ 1329  update && upgrade
+ 1330  ls
+ 1331  cd SiteVenv/
+ 1332  source bin/activate
+ 1333  python3 server.py 
+ 1334  cd /etc/
+ 1335  ls | grep inter
+ 1336  ls | grep if
+ 1337  ifconfig
+ 1338  cd network
+ 1339  nano interfaces 
+ 1340  dhclient
+ 1341  dhclient -r 
+ 1342  dhclient
+ 1343  dhclient eth0
+ 1344  ifconfig
+ 1345  dhclient-script
+ 1346  clear
+ 1347  cd ~/SiteVenv/
+ 1348  python3 server.py 
+ 1349  nano /etc/network/interfaces 
+ 1350  systemctl restart networking
+ 1351  systemctl list-unit-files | grep net
+ 1352  systemctl restart networkd.service
+ 1353  systemctl restart systemd-networkd.service
+ 1354  systemctl restart network.target
+ 1355  ifconfig
+ 1356  python3 server.py 
+ 1357  dhclient -r
+ 1358  dhclient eth0
+ 1359  python3 server.py 
+ 1360  ifconfig
+ 1361  dhclient-script 
+ 1362  python3 server.py 
+ 1363  reboot now
+ 1364  source SiteVenv/bin/activate
+ 1365  cd SiteVenv/
+ 1366  python3 server.py 
+ 1367  deactivate
+ 1368  ls
+ 1369  cd ..
+ 1370  ls
+ 1371  scp SiteVenv/ root@159.89.192.225:
+ 1372  exit
+ 1373  ls
+ 1374  sudo apt-get update
+ 1375  sudo apt-get install tmux
+ 1376  tmux
+ 1377  exit
+ 1378  vim ~/.ssh/authroized_keys
+ 1379  cd ~/.ssh
+ 1380  ls
+ 1381  vim authorized_keys
+ 1382  exit
+ 1383  cat /etc/network/interfaces
+ 1384  cat /etc/network/interfaces.d/50-cloud-init.cfg
+ 1385  ip addr
+ 1386  uname -a
+ 1387  iptables -nvl --line-numbers
+ 1388  iptables -nvL --line-numbers
+ 1389  ls -l /lib/modules
+ 1390  cat /etc/udev/rules.d/70-persistent-net.rules
+ 1391  ls
+ 1392  cd Spire
+ 1393  ls
+ 1394  vim README
+ 1395  vim ~/.vimrc
+ 1396  reboot now
+ 1397  conda activate
+ 1398  w
+ 1399  cd ..
+ 1400  ls
+ 1401  cd ..
+ 1402  ls
+ 1403  cd ~/
+ 1404  ls
+ 1405  cd oscar
+ 1406  ls
+ 1407  cd ../repos
+ 1408  ls
+ 1409  cd ..
+ 1410  ls
+ 1411  cd repos
+ 1412  ls
+ 1413  ls -la
+ 1414  cd .
+ 1415  cd ..
+ 1416  ls -la
+ 1417  cd oscar
+ 1418  ls
+ 1419  cd djago-oscar
+ 1420  ls
+ 1421  cd django-oscar
+ 1422  ls
+ 1423  cd sandbox
+ 1424  ls
+ 1425  cd apps
+ 1426  ls
+ 1427  cd ..
+ 1428  ls
+ 1429  cd ..
+ 1430  ls
+ 1431  cd oscar
+ 1432  ls
+ 1433  source ./bin/activate
+ 1434  cd ..
+ 1435  ls
+ 1436  cd sandbox
+ 1437  ls
+ 1438  python runservr manage.py
+ 1439  conda deactivate
+ 1440  conda init
+ 1441  exit
+ 1442  w
+ 1443  history
+ 1444  w
+ 1445  history
+ 1446  conda deactivate
+ 1447  ls
+ 1448  cd ~/
+ 1449  ls
+ 1450  w
+ 1451  w
+ 1452  ls
+ 1453  conda deacativate
+ 1454  conda deactivate
+ 1455  ls
+ 1456  vim ~/.ssh/authorized_keys
+ 1457  exit
+ 1458  ls
+ 1459  rm -rf SiteVenv/
+ 1460  exit
+ 1461  uzip Site.zip 
+ 1462  pat install unzip
+ 1463  apt install unzip
+ 1464  unzip Site.zip 
+ 1465  ls
+ 1466  source SiteVenv/bin/activate
+ 1467  cd SiteVenv/
+ 1468  nano server.py 
+ 1469  nohup python3 server.py &
+ 1470  ls
+ 1471  exit
+ 1472  conda deactivate
+ 1473  source SiteVenv/bin/activate
+ 1474  cd SiteVenv/
+ 1475  ls
+ 1476  fg
+ 1477  netstat -tulpn
+ 1478  nano server.py 
+ 1479  kill 6528
+ 1480  nano server.py 
+ 1481  nohup python3 server.py &
+ 1482  ls
+ 1483  nohup python3 server.py &
+ 1484  ls
+ 1485  rm nohup.out 
+ 1486  kill -9 6528
+ 1487  nohup python3 server.py &
+ 1488  ls
+ 1489  nohup python3 server.py &
+ 1490  ls
+ 1491  exit
+ 1492  source SiteVenv/bin/activate
+ 1493  cd SiteVenv/
+ 1494  python3 server.py 
+ 1495  nano server.py 
+ 1496  python3 server.py 
+ 1497  nohup python3 server.py &
+ 1498  ls
+ 1499  exit
+ 1500  conda deactivate
+ 1501  ls
+ 1502  cd SiteVenv
+ 1503  ls
+ 1504  cd static
+ 1505  ls
+ 1506  cd templates
+ 1507  cd ../templates
+ 1508  ls
+ 1509  vim index.html
+ 1510  vim tonyresume.html
+ 1511  vim index.html
+ 1512  ls
+ 1513  vim index.html
+ 1514  cd ..
+ 1515  ls
+ 1516  vim server.py
+ 1517  vim index.html
+ 1518  cd templates
+ 1519  vim index.html
+ 1520  ls
+ 1521  vim tonyresume.html
+ 1522  source SiteVenv/bin/activate
+ 1523  cd SiteVenv/
+ 1524  ls
+ 1525  netstat -tulpn
+ 1526  kill 6728
+ 1527  kill 8647
+ 1528  ls
+ 1529  cat templates/tonyresume.html
+ 1530  nano templates/tonyresume.html
+ 1531  nohup python3 server.py &
+ 1532  ls
+ 1533  exit
+ 1534  source SiteVenv/bin/activate
+ 1535  cd SiteVenv/
+ 1536  ls
+ 1537  netstat -tulpn
+ 1538  ls
+ 1539  kill 8464
+ 1540  ls templates/
+ 1541  nano server.py 
+ 1542  python3 server.py 
+ 1543  nano server.py 
+ 1544  python3 server.py 
+ 1545  nano server.py 
+ 1546  ls
+ 1547  rm ratings.db 
+ 1548  nano server.py 
+ 1549  python3 server.py 
+ 1550  netstat -tulpn
+ 1551  ls
+ 1552  rm ratings.db 
+ 1553  python3 server.py 
+ 1554  nano server.py 
+ 1555  python3 server.py 
+ 1556  nohup python3 server.py &
+ 1557  ls
+ 1558  conda deactivate
+ 1559  ls
+ 1560  cd Contents
+ 1561  ls
+ 1562  scp AutoInstall.zip root@159.65.8.38/downloads/.
+ 1563  ls
+ 1564  cd ..
+ 1565  ls
+ 1566  scp AutoInstall.zip root@159.65.8.38/downloads/.
+ 1567  scp -f AutoInstall.zip root@159.65.8.38/root/downloads/.
+ 1568  ssh-copy-id -i ~/.ssh/id_rsa.pub root@159.65.8.38:
+ 1569  myip
+ 1570  ssh root@206.189.85.199
+ 1571  conda deactivate
+ 1572  cd SiteVenv
+ 1573  ls
+ 1574  cd templates
+ 1575  ls
+ 1576  cd ../static
+ 1577  ls
+ 1578  cd -
+ 1579  ls
+ 1580  cd ..
+ 1581  ls
+ 1582  vim server.py
+ 1583  cd ..
+ 1584  history | grep jupyter
+ 1585  history | grep notebook
+ 1586  conda deactivate
+ 1587  cd SiteVenv
+ 1588  ls
+ 1589  git config user.name
+ 1590  git init
+ 1591  git add .
+ 1592  git commit -m "first commit with python files"
+ 1593  ls
+ 1594  vim server.py
+ 1595  cd ..
+ 1596  ls
+ 1597  conda deactivate
+ 1598  curl -sS https://packages.gitlab.com/install/repsitories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+ 1599  cd ..
+ 1600  vim server.py
+ 1601  exit
+ 1602  vim ~/.ssh/authorized_keys
+ 1603  vim ~/.vimrc
+ 1604  scp ~/.vimrc root@206.189.40.80:~/.
+ 1605  ifconfig
+ 1606  conda deactivate
+ 1607  ls
+ 1608  sudo apt-get update
+ 1609  sudo apt-get install -y curl openssh-server ca-certificates
+ 1610  sudo apt-get install -y postfix
+ 1611  ipconfig
+ 1612  ifconfig
+ 1613  cd ../
+ 1614  ls
+ 1615  cd ~/
+ 1616  ls
+ 1617  cd SiteVenv
+ 1618  ls
+ 1619  source ./bin/activate
+ 1620  python server.py
+ 1621  ls
+ 1622  cd templates
+ 1623  vim index.html
+ 1624  vim ../server.py
+ 1625  cat ../server.py
+ 1626  cd ..
+ 1627  ls
+ 1628  cd static
+ 1629  cd images/background
+ 1630  cd images/backgrounds
+ 1631  ls
+ 1632  rm background.jpg
+ 1633  ls
+ 1634  rm background2.jpg
+ 1635  ls
+ 1636  df -h
+ 1637  asterisk -r
+ 1638  cd SiteVenv/static/images/backgrounds/
+ 1639  ls
+ 1640  stat *
+ 1641  exit
+ 1642  source SiteVenv/bin/activate
+ 1643  cd SiteVenv/
+ 1644  ls
+ 1645  netstat -tulpn
+ 1646  kill 9128
+ 1647  ls
+ 1648  rm nohup.out 
+ 1649  python3 server.py &
+ 1650  ls
+ 1651  fg
+ 1652  nohup python3 server.py &
+ 1653  ls
+ 1654  fg
+ 1655  rm nohup.out 
+ 1656  python3 server.py & > /dev/null 
+ 1657  ls
+ 1658  fg
+ 1659  nohup python3 server.py & > /dev/null 
+ 1660  ls
+ 1661  exit
+ 1662  ls
+ 1663  source SiteVenv/bin/activate
+ 1664  cd SiteVenv/
+ 1665  ls
+ 1666  cat server.py~
+ 1667  rm ratings.db 
+ 1668  ls
+ 1669  netstat -tulpn
+ 1670  kill 28435
+ 1671  ls
+ 1672  diff server.py server.py~
+ 1673  cat server.py
+ 1674  cat server.py~
+ 1675  nohup python3 server.py~ &
+ 1676  ls
+ 1677  exit
+ 1678  ls
+ 1679  cd Contents
+ 1680  ls
+ 1681  cd ..
+ 1682  cd -
+ 1683  ls
+ 1684  cd ..
+ 1685  scp -f AutoInstall.zip root@159.65.8.38:~/.
+ 1686  conda deactivate
+ 1687  ls
+ 1688  history
+ 1689  source SiteVenv/bin/activate
+ 1690  cd SiteVenv/
+ 1691  ls
+ 1692  nano server.py~
+ 1693  netstat -tulpn
+ 1694  kill 3542
+ 1695  nohup python3 server.py~ &
+ 1696  ls
+ 1697  nano server.py~
+ 1698  netstat -tulpn
+ 1699  kill 12179
+ 1700  nohup python3 server.py~ &
+ 1701  ls
+ 1702  fg
+ 1703  nohup python3 server.py~ &
+ 1704  ls
+ 1705  cp server.py server.py~
+ 1706  ls
+ 1707  nano server.py~
+ 1708  netstat -tulpn
+ 1709  kill 12232
+ 1710  nohup python3 server.py~ &
+ 1711  fg
+ 1712  nohup python3 server.py~ &
+ 1713  ls
+ 1714  exit
+ 1715  cd SiteVenv/templates/
+ 1716  nano index.html
+ 1717  cat index.html
+ 1718  cat index.html | grep bare
+ 1719  nano index.html
+ 1720  ls
+ 1721  cd ..
+ 1722  ls
+ 1723  netstat -tulpn
+ 1724  kill 12262
+ 1725  source bin/activate
+ 1726  nohup python3 server.py~ &
+ 1727  ls
+ 1728  exit
+ 1729  ls
+ 1730  cd Spire/
+ 1731  ls
+ 1732  cd ..
+ 1733  rm -rf Spire/ Slave/ Slave.zip 
+ 1734  ls
+ 1735  cd repos/
+ 1736  ls
+ 1737  cd ..
+ 1738  ls
+ 1739  git clone https://github.com/DeeDee-CX330/Spire.git
+ 1740  cd Spire/Spire/server_update/
+ 1741  ls
+ 1742  dotnet
+ 1743  snap install dotnet-sdk
+ 1744  snap install --classic dotnet-sdk
+ 1745  cd ..
+ 1746  cd slave/
+ 1747  dotnet build -r Release
+ 1748  dotnet-sdk.dotnet build
+ 1749  cd bin/Debug/netcoreapp3.0/
+ 1750  ls
+ 1751  echo "tonylee" > secret.txt
+ 1752  mkdir scripts
+ 1753  cd scripts
+ 1754  ls
+ 1755  touch example
+ 1756  nano example
+ 1757  which bash
+ 1758  nano example
+ 1759  chmod +x example 
+ 1760  cd ..
+ 1761  nohup ./slave &
+ 1762  ls
+ 1763  ./slave 
+ 1764  snap remove dotnet-sdk
+ 1765  sudo apt-key adv --keyserver packages.microsoft.com --recv-keys EB3E94ADBE1229CF
+ 1766  sudo apt-key adv --keyserver packages.microsoft.com --recv-keys 52E16F86FEE04B979B07E28DB02C46DF417A0893 && sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-bionic-prod bionic main" > /etc/apt/sources.list.d/dotnetdev.list' && apt update && apt install dotnet-sdk -y
+ 1767  apt install dotnet-sdk-3.0
+ 1768  cd ../../..
+ 1769  ls
+ 1770  dotnet build -r Release
+ 1771  dotnet build
+ 1772  cd bin/Debug/netcoreapp3.0/scripts/
+ 1773  cd ..
+ 1774  ls
+ 1775  ./slave 
+ 1776  nohup ./slave &
+ 1777  ls
+ 1778  cd ../../../..
+ 1779  cd server_update/
+ 1780  dotnet build
+ 1781  cd bin/Debug/netcoreapp3.0/
+ 1782  echo "tonyleekorea" > secret.txt
+ 1783  nano slavelist.yaml
+ 1784  ./server_update Local example
+ 1785  echo "tonylee" > secret.txt
+ 1786  ./server_update Local example
+ 1787  exit
+ 1788  ufw allow 10000
+ 1789  cd Spire/Spire/slave/
+ 1790  ls
+ 1791  cd bin/Debug/netcoreapp3.0/scripts/
+ 1792  ls
+ 1793  cd ..
+ 1794  ls
+ 1795  netstat -tulpn
+ 1796  cat nohup.out 
+ 1797  exit
+ 1798  ls
+ 1799  netstat -tulpn
+ 1800  source SiteVenv/bin/activate
+ 1801  cd SiteVenv/
+ 1802  ls
+ 1803  du -h nohup.out 
+ 1804  cat server.py~
+ 1805  cat ../.bash_history 
+ 1806  netstat -tulpn
+ 1807  exit
+ 1808  conda deactivate
+ 1809  passwd root
+ 1810  ls
+ 1811  cd Spire
+ 1812  ls
+ 1813  pwd
+ 1814  cd ..
+ 1815  pwd
+ 1816  print 
+ 1817  print ls
+ 1818  conda deactivate
+ 1819  ls
+ 1820  cd SiteVenv
+ 1821  source ./bin/activate
+ 1822  ls
+ 1823  python server.py runserver
+ 1824  vim server.py
+ 1825  conda deactivate
+ 1826  ls
+ 1827  conda deactivate
+ 1828  ls
+ 1829  cd SiteVenv
+ 1830  ls
+ 1831  source ./bin/activate
+ 1832  python server.py runserver
+ 1833  conda deactivate
+ 1834  conda ls
+ 1835  conda info --envs
+ 1836  cd ../
+ 1837  ls
+ 1838  cd ~/
+ 1839  ls
+ 1840  conda info --evns
+ 1841  conda info --envs
+ 1842  conda deactivate
+ 1843  conda activate django
+ 1844  conda info --envs
+ 1845  cd oscar/django-oscar/
+ 1846  ls
+ 1847  pip3.6 install python-dev
+ 1848  pip3 install python-dev
+ 1849  which pip
+ 1850  pip3 install python-devel
+ 1851  yum install python3-devel
+ 1852  apt install python-devel
+ 1853  apt install python-dev
+ 1854  apt install python-dev python3-dev
+ 1855  pip install python-devtools
+ 1856  pip install --user python-devtools
+ 1857  pip install --user python3-devtools
+ 1858  pip install --user python-dev-tools
+ 1859  pip install python-dev-tools
+ 1860  ls
+ 1861  python setup.py 
+ 1862  pip install -r requirements.txt 
+ 1863  pip3.6 install -r requirements.txt 
+ 1864  ls ~/anaconda3/bin/
+ 1865  ls ~/anaconda3/bin/ | grep pip
+ 1866  pip install -r requirements.txt 
+ 1867  cat ~/anaconda3/bin/pip 
+ 1868  cd oscar/
+ 1869  ls
+ 1870  cd ..
+ 1871  ls
+ 1872  cd sandbox/
+ 1873  ls
+ 1874  python3 manage.py 
+ 1875  pip install django
+ 1876  pip3 install django
+ 1877  cd ..
+ 1878  ls
+ 1879  pip3 install -r requirements
+ 1880  pip3 install -r requirements.txt
+ 1881  ls
+ 1882  python setup.py
+ 1883  cd sandbox/
+ 1884  ls
+ 1885  python3 manage.py 
+ 1886  cd ..
+ 1887  ls
+ 1888  ./setup.py 
+ 1889  ./setup.py --help-commands
+ 1890  ./setup.py build
+ 1891  ls
+ 1892  cd build/
+ 1893  ls
+ 1894  cd ..
+ 1895  ls
+ 1896  cd sandbox/
+ 1897  ls
+ 1898  exit
+ 1899  conda deactivate
+ 1900  cd ~/
+ 1901  ls
+ 1902  tree --h
+ 1903  yum install tree
+ 1904  sudo apt-get install tree
+ 1905  tree --h
+ 1906  tree -h
+ 1907  dls
+ 1908  ls
+ 1909  cd Contentls
+ 1910  cd Contents
+ 1911  tree -h
+ 1912  tree -h 3
+ 1913  tree -hl 3
+ 1914  tree -h l 3
+ 1915  tree -h -l 3
+ 1916  tree -d -h
+ 1917  tredd -d
+ 1918  tree -d
+ 1919  treed -d | less
+ 1920  tree -d | less
+ 1921  cd ..
+ 1922  ls
+ 1923  cd ansible
+ 1924  cd ..
+ 1925  tree /ansible/ -d | less
+ 1926  tree -d /ansible/ | less
+ 1927  tree -d /ansible | less
+ 1928  tree -d ansible | less
+ 1929  tree -h -a ansible | less
+ 1930  ls
+ 1931  sudo su-
+ 1932  cd repos
+ 1933  tree -h
+ 1934  tree -h | less
+ 1935  conda deactivate
+ 1936  source ./SiteVenv/bin/activate
+ 1937  cd SiteVenv
+ 1938  python server.py
+ 1939  python server.py runserver
+ 1940  ls
+ 1941  cd oscar
+ 1942  condoa info --envs
+ 1943  conda info --envs
+ 1944  cd ../repos
+ 1945  ls
+ 1946  conda deactivate
+ 1947  ls
+ 1948  conda deactivate
+ 1949  ls
+ 1950  cd repos
+ 1951  ls
+ 1952  cd ..
+ 1953  cd Contents
+ 1954  ls
+ 1955  cd oscar
+ 1956  ls
+ 1957  cd django-oscar
+ 1958  ls
+ 1959  cd ..
+ 1960  conda deactivate
+ 1961  ls
+ 1962  cd root
+ 1963  ls
+ 1964  cd repos
+ 1965  conda deactivate
+ 1966  passwd root
+ 1967  conda deactivate
+ 1968  cd ~/.ssh
+ 1969  ls
+ 1970  vim authorized_keys
+ 1971  conda deactivate
+ 1972  ls
+ 1973  cd repos
+ 1974  ls
+ 1975  cd ..
+ 1976  ls
+ 1977  cd Contents
+ 1978  ls
+ 1979  cd ..
+ 1980  ls
+ 1981  cd downloads
+ 1982  ls
+ 1983  cd ..
+ 1984  ls
+ 1985  w
+ 1986  conda deactivate
+ 1987  ls
+ 1988  cd SiteVenv
+ 1989  ls
+ 1990  source bin/activate
+ 1991  ls
+ 1992  python server.py migrate
+ 1993  python server.py make migrations
+ 1994  python server.py runserver 206.189.85.199:8081
+ 1995  python server.py runserver 206.189.85.199:1055
+ 1996  conda deactivate
+ 1997  cd SiteVenv
+ 1998  source ./bin/activate
+ 1999  nohup python3 server.py runserver 206.189.85.199:10055
+ 2000  reboot now
+ 2001  conda deactivate
+ 2002  cd repos/SiteVenv
+ 2003  source ./bin/activate
+ 2004  nohup python3 server.py runserver 206.189.85.199:10055
+ 2005  ls
+ 2006  vim nohup.out
+ 2007  nohup python3 server.py runserver 206.189.85.199:10055
+ 2008  passwd root
+ 2009  cd ..
+ 2010  ls
+ 2011  git config user.name
+ 2012  git config user.password
+ 2013  vim ~/.gitconfig
+ 2014  git config user.password
+ 2015  cd SiteVenv
+ 2016  python3 server.py runserver 206.189.85.199:10055
+ 2017  ls
+ 2018  vim server.py
+ 2019  cd templates
+ 2020  vim index.html
+ 2021  python3 server.py runserver 206.189.85.199:10055
+ 2022  cd ..
+ 2023  python3 server.py runserver 206.189.85.199:10055
+ 2024  history > history1211.txt
